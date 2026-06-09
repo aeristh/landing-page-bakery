@@ -1,0 +1,91 @@
+.banner {
+  height: 80vh;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("img/bnnr.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content {
+  height: 100%;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-content {
+  background-color: #212529;
+  color: white;
+}
+
+.custom-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12) !important;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.list-group-item-action:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+  border-left: 4px solid #212529;
+}
+
+.social-icon {
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+.si-instagram:hover {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  transform: translateY(-5px);
+}
+
+.si-whatsapp:hover {
+  background-color: #25d366;
+  transform: translateY(-5px);
+}
+
+.si-tiktok:hover {
+  background-color: #000000;
+  box-shadow:
+    2px 2px #ff0050,
+    -2px -2px #00f2ea;
+  transform: translateY(-5px);
+}
+
+.social-icon:hover {
+  color: white !important;
+}
+
+section[id] {
+  scroll-margin-top: 80px;
+}
